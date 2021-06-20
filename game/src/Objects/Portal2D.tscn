@@ -4,7 +4,7 @@
 [ext_resource path="res://assets/portal.png" type="Texture" id=2]
 
 [sub_resource type="CapsuleShape2D" id=1]
-radius = 37.485
+radius = 18.4576
 height = 71.5939
 
 [sub_resource type="Animation" id=2]
