@@ -8,5 +8,8 @@ margin_bottom = 37.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
 [connection signal="button_up" from="." to="." method="_on_button_up"]

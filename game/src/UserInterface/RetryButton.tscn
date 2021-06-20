@@ -7,7 +7,7 @@ margin_right = 274.0
 margin_bottom = 87.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
-text = "Retry"
+text = "Nochmal"
 script = ExtResource( 1 )
 
 [connection signal="button_up" from="." to="." method="_on_button_up"]

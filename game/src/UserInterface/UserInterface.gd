@@ -7,7 +7,7 @@ onready var pause_overlay: ColorRect = $PauseOverlay
 onready var title_label: Label = $PauseOverlay/Title
 onready var main_screen_button: Button = $PauseOverlay/PauseMenu/MainScreenButton
 
-const MESSAGE_DIED: = "You died"
+const MESSAGE_DIED: = "JETZAN HOT DI DA KIWARA DAWISCHT!"
 
 var paused: = false setget set_paused
 
@@ -34,7 +34,7 @@ func _unhandled_input(event: InputEvent) -> void:
 
 
 func update_interface() -> void:
-	score_label.text = "Score: %s" % PlayerData.score
+	score_label.text = "BIERCOUNTER: %s" % PlayerData.score
 
 
 func set_paused(value: bool) -> void:

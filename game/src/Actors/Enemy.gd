@@ -3,7 +3,6 @@ extends Actor
 
 onready var stomp_area: Area2D = $StompArea2D
 
-export var score: = 100
 
 
 func _ready() -> void:
@@ -23,5 +22,4 @@ func _on_StompArea2D_area_entered(area: Area2D) -> void:
 
 
 func die() -> void:
-	PlayerData.score += score
 	queue_free()

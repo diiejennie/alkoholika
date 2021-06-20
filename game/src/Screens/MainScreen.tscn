@@ -2,7 +2,7 @@
 
 [ext_resource path="res://assets/ui_theme.tres" type="Theme" id=1]
 [ext_resource path="res://assets/background.png" type="Texture" id=2]
-[ext_resource path="res://src/UserInterface/Title.tscn" type="PackedScene" id=3]
+[ext_resource path="res://assets/—Pngtree—wood grain plaque_1604794.png" type="Texture" id=3]
 [ext_resource path="res://src/UserInterface/SceneChangeButton.tscn" type="PackedScene" id=4]
 [ext_resource path="res://src/UserInterface/QuitButton.tscn" type="PackedScene" id=5]
 
@@ -17,6 +17,8 @@ __meta__ = {
 [node name="TextureRect" type="TextureRect" parent="."]
 anchor_right = 1.0
 anchor_bottom = 1.0
+margin_left = -2.0
+margin_right = -2.0
 texture = ExtResource( 2 )
 expand = true
 stretch_mode = 1
@@ -24,16 +26,16 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="Title" parent="." instance=ExtResource( 3 )]
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
-margin_left = -257.0
-margin_top = -360.0
-margin_right = 257.0
-margin_bottom = -190.0
-text = "Alkoholika"
+[node name="TextureRect2" type="TextureRect" parent="."]
+margin_left = 424.0
+margin_top = 259.0
+margin_right = 1483.0
+margin_bottom = 647.0
+texture = ExtResource( 3 )
+stretch_mode = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
 [node name="Menu" type="VBoxContainer" parent="."]
 anchor_left = 0.5
@@ -41,9 +43,9 @@ anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
 margin_left = -180.0
-margin_top = -75.0
+margin_top = 73.0
 margin_right = 180.0
-margin_bottom = 79.0
+margin_bottom = 227.0
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -51,10 +53,11 @@ __meta__ = {
 [node name="PlayButton" parent="Menu" instance=ExtResource( 4 )]
 margin_right = 360.0
 margin_bottom = 73.0
-text = "Play"
+text = "SAUFEN!"
 next_scene_path = "res://src/Levels/Level01.tscn"
 
 [node name="QuitButton" parent="Menu" instance=ExtResource( 5 )]
 margin_top = 81.0
 margin_right = 360.0
 margin_bottom = 154.0
+text = "Beenden"

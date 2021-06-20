@@ -26,6 +26,9 @@ margin_right = -50.0
 margin_bottom = 150.0
 text = "Score: %s"
 valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
 [node name="PauseOverlay" type="ColorRect" parent="."]
 visible = false
@@ -55,7 +58,7 @@ margin_bottom = 135.0
 margin_top = 91.0
 margin_right = 274.0
 margin_bottom = 178.0
-text = "Back to Main Screen"
+text = "Hauptmenü"
 next_scene_path = "res://src/Screens/MainScreen.tscn"
 
 [node name="QuitButton" parent="PauseOverlay/PauseMenu" instance=ExtResource( 6 )]

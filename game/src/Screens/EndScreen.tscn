@@ -35,7 +35,7 @@ text = "Congratulations you drank till the end"
 anchor_right = 1.0
 margin_top = 228.0
 margin_bottom = 398.0
-text = "You drank %s beer and you died %s times."
+text = "Du hast dir %s Bier gegönnt und Kiwara hast %s getroffen."
 align = 1
 valign = 1
 __meta__ = {
@@ -55,10 +55,11 @@ margin_bottom = 79.0
 [node name="PlayButton" parent="Menu" instance=ExtResource( 5 )]
 margin_right = 360.0
 margin_bottom = 73.0
-text = "Play Again"
+text = "Nochmal!"
 next_scene_path = "res://src/Screens/MainScreen.tscn"
 
 [node name="QuitButton" parent="Menu" instance=ExtResource( 7 )]
 margin_top = 81.0
 margin_right = 360.0
 margin_bottom = 154.0
+text = "Beenden"
